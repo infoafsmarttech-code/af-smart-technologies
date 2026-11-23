@@ -58,10 +58,52 @@ section{padding:75px 22px}
 .contact .section-title h2{color:white}
 .contact .section-title p{color:#bdcde1}
 .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.contact-card{background:#ffffff12;border:1px solid #ffffff25;padding:25px;border-radius:10px;text-align:center}
-.contact-card span{font-size:30px}
-.contact-card h3{margin:10px}
-.contact-card p{color:#cbd5e1;font-size:14px;overflow-wrap:anywhere}
+.contact-card {
+    background: #ffffff12;
+    border: 1px solid #ffffff30;
+    padding: 30px 25px;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    background: #ffffff20;
+    border-color: #00c2e8;
+    box-shadow: 0 12px 28px rgba(0,194,232,0.18);
+}
+
+.contact-card span {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.contact-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contact-card p {
+    color: #cbd5e1;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+    line-height: 1.8;
+}
+
+.contact-card a {
+    color: #00c2e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 footer{background:#041124;color:#b9c8da;text-align:center;padding:24px;font-size:13px}
 footer strong{color:white}
 .whatsapp{position:fixed;right:20px;bottom:20px;background:#20c76a;color:white;padding:14px 19px;border-radius:40px;font-weight:bold;box-shadow:0 5px 20px #0003;z-index:20}
