@@ -85,17 +85,24 @@ section{padding:55px 18px}
     display: block;
     margin: auto;
 }
-</style>
- 
-.brand-image {
-  width: 60px !important;
-  max-width: 60px !important;
-  height: auto !important;
-  display: block;
-  margin: auto;
-  border-radius: 6px;
+  .hero-card {
+    flex: 1;
+    min-width: 0;
+    max-width: 460px;
+    min-height: 270px;
+    overflow: hidden;
 }
 
+.hero-card img.brand-image {
+    display: block !important;
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
+    object-fit: contain;
+    margin: auto;
+}
+</style>
+ 
 </head>
 
 <body>
