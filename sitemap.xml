@@ -1,6 +1,49 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/</loc>
   </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/projects.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/cctv-installation.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/networking-services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/fiber-optic-solutions.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/website-development.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/security-systems.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoafsmarttech-code.github.io/af-smart-technologies/it-support.html</loc>
+  </url>
+
 </urlset>
