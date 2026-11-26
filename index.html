@@ -135,16 +135,86 @@ footer{background:#041124;color:#b9c8da;text-align:center;padding:24px;font-size
 footer strong{color:white}
 .whatsapp{position:fixed;right:20px;bottom:20px;background:#20c76a;color:white;padding:14px 19px;border-radius:40px;font-weight:bold;box-shadow:0 5px 20px #0003;z-index:20}
 @media(max-width:750px){
-.navlinks{display:none;position:absolute;top:62px;left:0;width:100%;background:var(--dark);padding:20px;flex-direction:column}
+
+.navlinks{
+    display:none;
+    position:absolute;
+    top:62px;
+    left:0;
+    width:100%;
+    background:var(--dark);
+    padding:15px;
+    flex-direction:column;
+}
+
 .navlinks.show{display:flex}
 .menu-btn{display:block}
-.hero{padding:65px 20px}
-.hero-inner{flex-direction:column}
-h1{font-size:36px}
-.hero-card{width:100%;min-height:220px}
-.services,.projects,.contact-grid{grid-template-columns:1fr}
+
+.hero{padding:20px 12px}
+.hero-inner{flex-direction:column;gap:12px}
+h1{font-size:25px}
+.hero-card{
+    width:100%;
+    min-height:auto;
+}
+
+.hero-card img.brand-image{
+    width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+}
+
+#services{padding:15px 10px}
+
+#services .section-title{
+    margin-bottom:12px;
+}
+
+#services .section-title h2{
+    font-size:22px;
+}
+
+#services .section-title p{
+    font-size:13px;
+}
+
+.services{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+}
+
+#services .service{
+    padding:8px;
+    border-radius:10px;
+}
+
+#services .service-card-link{
+    padding:3px;
+}
+
+#services .service-image{
+    width:100% !important;
+    max-width:140px !important;
+    height:80px !important;
+    object-fit:contain !important;
+    margin:0 auto !important;
+}
+
+.projects,.contact-grid{
+    grid-template-columns:1fr;
+}
+
 .about-inner{grid-template-columns:1fr}
-section{padding:55px 18px}
+
+section{padding:20px 12px}
+
+.whatsapp{
+    right:10px;
+    bottom:10px;
+    padding:9px 13px;
+    font-size:13px;
+}
+
 }
 .hero-card img.brand-image {
     display: block !important;
