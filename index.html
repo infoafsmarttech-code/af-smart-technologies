@@ -418,6 +418,68 @@ height: auto !important;
     display: block !important;
     margin: 0 auto 10px !important;
 }
+
+/* Compact Homepage Contact Design */
+.contact-details {
+    max-width: 650px;
+    margin: auto;
+}
+
+.contact-item {
+    margin-bottom: 16px;
+}
+
+.contact-item strong {
+    display: block;
+    font-size: 19px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.contact-item p,
+.contact-item a {
+    color: #00c2e8;
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #0756c9;
+    color: white !important;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 190px;
+}
+
+.contact-button:hover {
+    background: #00a9ce;
+}
+
+@media(max-width:750px) {
+    .contact-details {
+        padding: 0 10px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-button {
+        width: 100%;
+    }
+}
+    
 </style>
  
 </head>
